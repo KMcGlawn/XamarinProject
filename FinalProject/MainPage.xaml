@@ -6,11 +6,75 @@
              mc:Ignorable="d"
              x:Class="FinalProject.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Personal Day Planner" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid BackgroundColor="FloralWhite">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".5*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width=".5*"/>
+        </Grid.ColumnDefinitions>
+        <Label BackgroundColor="Teal" Grid.Row="0" Grid.ColumnSpan="9"/>
+        <Label Text="Month" TextColor="White" FontSize="Large" HorizontalTextAlignment="Center" Grid.Row="1" Grid.ColumnSpan="9" BackgroundColor="DarkGray"/>
+        <Button Text="" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="3" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="4" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="5" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="6" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="6" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="7" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Text="" Grid.Row="7" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="DarkGray" />
+        <Button Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" BackgroundColor="Teal" TextColor="AntiqueWhite" Text="Prev" FontSize="Medium"/>
+        <Button Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="3" BackgroundColor="Teal" TextColor="AntiqueWhite" Text="Next" FontSize="Medium"/>
+        <Label Grid.Row="10" Grid.ColumnSpan="9" BackgroundColor="AntiqueWhite"/>
+        <Label Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="9" Text="Copyright" TextColor="White" BackgroundColor="Teal"/>
+    </Grid>
+
+
 
 </ContentPage>
