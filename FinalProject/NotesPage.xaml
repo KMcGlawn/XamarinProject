@@ -6,10 +6,30 @@
              mc:Ignorable="d"
              x:Class="FinalProject.NotesPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="10,35,10,10" BackgroundColor="DarkOrange">
+            <Label Text="To Do List"
+               HorizontalOptions="Center" 
+               FontAttributes="Bold" FontSize="Large"
+               TextColor="White"/>
+            <Editor x:Name="editor"
+                Placeholder="Enter your list!"
+                HeightRequest="100" FontAttributes="Bold"
+                    TextColor="White"
+                    BackgroundColor="AntiqueWhite"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Save" TextColor="White" BackgroundColor="Teal"
+                    Clicked="OnSaveButtonClicked" />
+                <Button Grid.Column="1"
+                    Text="Delete" TextColor="White" BackgroundColor="Teal"
+                    Clicked="OnDeleteButtonClicked"/>
+            </Grid>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>
+    
+    
