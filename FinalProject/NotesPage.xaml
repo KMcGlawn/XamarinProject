@@ -14,19 +14,22 @@
             <Editor x:Name="editor"
                 Placeholder="Enter your list!"
                 HeightRequest="100" FontAttributes="Bold"
-                    TextColor="Gray"
-                    BackgroundColor="AntiqueWhite"/>
+                TextColor="Gray" FontSize="Large"
+                BackgroundColor="AntiqueWhite"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Button Text="Save" TextColor="White" BackgroundColor="Teal"
+                        FontSize="Medium"
                     Clicked="OnSaveButtonClicked" />
                 <Button Grid.Column="1"
                     Text="Delete" TextColor="White" BackgroundColor="Teal"
+                        FontSize="Medium"
                     Clicked="OnDeleteButtonClicked"/>
             </Grid>
+            
         </StackLayout>
 
     </ContentPage.Content>
