@@ -18,8 +18,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height=".5*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height=".75*"/>
+            <RowDefinition Height=".5*"/>
             <RowDefinition Height="0.25*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -42,43 +42,43 @@
         <Button Text="THUR" Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="1" Padding="2" />
         <Button Text="FRI" Grid.Row="2" Grid.Column="6" Grid.ColumnSpan="1" Padding="2" />
         <Button Text="SAT" Grid.Row="2" Grid.Column="7" Grid.ColumnSpan="1" Padding="2" />
-        <Button Text="29" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
-        <Button Text="30" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
-        <Button Text="31" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
+        <Button Text="29" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
+        <Button Text="30" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
+        <Button Text="31" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
         <Button Text="01" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="02" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="03" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="04" Grid.Row="3" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="05" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="06" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="07" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="08" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="09" Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="10" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="11" Grid.Row="4" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="12" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="13" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="14" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="15" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="16" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="17" Grid.Row="5" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="18" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="19" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="20" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="21" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="22" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="23" Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="24" Grid.Row="6" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="25" Grid.Row="6" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="26" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="27" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="28" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="29" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="30" Grid.Row="7" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
-        <Button Text="01" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
-        <Button Text="02" Grid.Row="7" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
-        <Button Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" BackgroundColor="Teal" TextColor="AntiqueWhite" Text="Prev" FontSize="Medium"/>
-        <Button Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="3" BackgroundColor="Teal" TextColor="AntiqueWhite" Text="Next" FontSize="Medium"/>
+        <Button Text="02" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="03" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="04" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="05" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="06" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="07" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="08" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="09" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="10" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="11" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="12" Clicked="NavigateButton_OnClicked" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="13" Clicked="NavigateButton_OnClicked" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="14" Clicked="NavigateButton_OnClicked" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="15" Clicked="NavigateButton_OnClicked" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="16" Clicked="NavigateButton_OnClicked" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="17" Clicked="NavigateButton_OnClicked" Grid.Row="5" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="18" Clicked="NavigateButton_OnClicked" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="19" Clicked="NavigateButton_OnClicked" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="20" Clicked="NavigateButton_OnClicked" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="21" Clicked="NavigateButton_OnClicked" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="22" Clicked="NavigateButton_OnClicked" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="23" Clicked="NavigateButton_OnClicked" Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="24" Clicked="NavigateButton_OnClicked" Grid.Row="6" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="25" Clicked="NavigateButton_OnClicked" Grid.Row="6" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="26" Clicked="NavigateButton_OnClicked" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="27" Clicked="NavigateButton_OnClicked" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="28" Clicked="NavigateButton_OnClicked" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="29" Clicked="NavigateButton_OnClicked" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="30" Clicked="NavigateButton_OnClicked" Grid.Row="7" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="01" Clicked="NavigateButton_OnClicked" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
+        <Button Text="02" Clicked="NavigateButton_OnClicked" Grid.Row="7" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
+        <Button Clicked="PrevButton_OnClicked" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" BackgroundColor="Teal" TextColor="AntiqueWhite" Text="Prev" FontSize="Medium"/>
+        <Button Clicked="NextButton_OnClicked" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="3" BackgroundColor="Teal" TextColor="AntiqueWhite" Text="Next" FontSize="Medium"/>
         <Label Grid.Row="10" Grid.ColumnSpan="9" BackgroundColor="AntiqueWhite"/>
         <Label Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="9" Text="Copyright" TextColor="White" BackgroundColor="Teal"/>
     </Grid>
