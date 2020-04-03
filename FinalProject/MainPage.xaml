@@ -45,7 +45,7 @@
         <Button Text="29" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
         <Button Text="30" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
         <Button Text="31" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="LightGray" />
-        <Button Text="01" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
+        <Button Text="01" Clicked="NavigateButton_OnClicked" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
         <Button Text="02" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
         <Button Text="03" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
         <Button Text="04" Grid.Row="3" Grid.Column="7" Grid.ColumnSpan="1" TextColor="White" BackgroundColor="Gray" />
