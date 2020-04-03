@@ -14,7 +14,7 @@
             <Editor x:Name="editor"
                 Placeholder="Enter your list!"
                 HeightRequest="100" FontAttributes="Bold"
-                    TextColor="White"
+                    TextColor="Gray"
                     BackgroundColor="AntiqueWhite"/>
             <Grid>
                 <Grid.ColumnDefinitions>
